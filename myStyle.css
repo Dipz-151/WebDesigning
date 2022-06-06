@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(112, 174, 227);
+    text-align: left
+}
+h1, 
+h2, 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #9654a0;
+}
+table,
+th,
+td {
+    color: rgb(59, 26, 150);
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomrs and Input</title>
+</head>
+<body>
+    <h2>This is a form tutorial</h2>
+    <form action="backend.js">
+        <div>
+            <label for="name">Name:</label>   
+            <!-- for label to work, there has to be an id. And the field name should be inside the label, then by clicking on the field name, the value will be selected -->
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            <label for="chkbox">Are you eligible?:</label>
+            <input type="checkbox" name="myEligibility" checked id="chkbox">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Enter your comment: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="indica">Indica</option>
+                <option value="swift">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
