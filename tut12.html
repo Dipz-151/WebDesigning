@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Below CSS is an element selector */
+        p {
+            color: green;
+            border: 2px solid red;
+        }
+        
+        /* Below code is an class selector. For id selector use # */
+        .redElement {
+            color: red
+        }
+
+        .bgBlue {
+            color: blue
+        }
+        
+        /* Below code is a grouping selector */
+        footer, span {
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="firstPara" class="bgBlue">This is a simple paragraph to demonstrate CSS Selector</p>
+    <p id="secondPara" class="redElement">This is also a simple paragraph to demonstrate CSS Selector</p>
+    <div>
+        <p id="thirdPara" class="bgBlue">This is yet another simple paragraph inside div to demonstrate CSS Selector</p>
+        <span>This is a span</span>
+    </div>
+    <footer>This is a footer</footer>
+    <!-- Note: Use Id selector when changing style of one element otherwise use class selector -->
+</body>
+</html>
