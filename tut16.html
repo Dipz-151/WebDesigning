@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            background-color: #ade3e3;
+            background-image: url('https://source.unsplash.com/random/1920x1080?nature,water');
+        }
+
+        .container {
+            font-family: cursive;
+            font-style: italic;
+            background-color: antiquewhite;
+            border: 3px solid rebeccapurple;
+            border-radius: 4px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 24px;
+            padding-right: 85px;
+            margin: 14px 19px;
+            /* Margin and padding have similar syntax.
+               padding/margin: y(top/bottom) x(left/right) eg: padding: 10px 25px
+               margin/padding: top right bottom left e.g: padding: 24px, 25px, 30px, 40px
+            */
+            width: 543px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This tutorial is for Box Model</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vitae aperiam adipisci, assumenda iusto est! Quos quo rerum atque ad laudantium! Corporis odit quo nemo.</p>
+    </div>
+    <div class="container">
+        <h3>This tutorial is for Box Model</h3>
+        <p id="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi provident officia minima ex aspernatur, nobis sapiente veniam, sed vel aut eveniet quas et, nam dolor corporis a exercitationem dicta aliquid.</p>
+    </div>
+    <div class="container">
+        <h3>This tutorial is for Box Model</h3>
+        <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi provident officia minima ex aspernatur, nobis sapiente veniam, sed vel aut eveniet quas et, nam dolor corporis a exercitationem dicta aliquid.</p>
+    </div>
+</body>
+</html>
