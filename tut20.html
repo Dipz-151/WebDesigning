@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        header {
+            border: 2px solid red;
+            /* width: 20%; width can be set in a block element */
+            margin: auto;
+            text-align: center;
+            width: 1192px
+        }
+
+        img {
+            width: 34px;
+            display: block;
+            /*The display of “img” is inline and therefore, to make it come to center, we have to set the property display as block*/
+            margin: auto
+        }
+
+        h3 {
+            font-family: cursive;
+            margin: 0px;
+        }
+
+        .box {
+            border: 2px solid blue;
+            background-color: rgb(126, 141, 147);
+            margin: 6px;
+            padding: 4px;
+            width: 32%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .container {
+            margin: auto;
+            width: 1200px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="beer.png" alt="beer glass">
+        <h3>Weekend starts today!!! Yuhuu!!!</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4>Heading 1</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sint facilis qui quibusdam commodi
+                itaque porro magnam laborum quas obcaecati dolorem consequuntur quia non consectetur necessitatibus rem
+                beatae, aperiam sit suscipit eum! Magnam delectus quia sunt earum nulla est dolores.</p>
+        </div>
+        <div class="box">
+            <h4>Heading 2</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sint facilis qui quibusdam commodi
+                itaque porro magnam laborum quas obcaecati dolorem consequuntur quia non consectetur necessitatibus rem
+                beatae, aperiam sit suscipit eum! Magnam delectus quia sunt earum nulla est dolores.</p>
+        </div>
+        <div class="box">
+            <h4>Heading 3</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sint facilis qui quibusdam commodi
+                itaque porro magnam laborum quas obcaecati dolorem consequuntur quia non consectetur necessitatibus rem
+                beatae, aperiam sit suscipit eum! Magnam delectus quia sunt earum nulla est dolores.</p>
+        </div>
+    </div>
+</body>
+
+</html>
