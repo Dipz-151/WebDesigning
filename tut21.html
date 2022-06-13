@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .container {
+            border: 3px solid blueviolet;
+            background-color: bisque;
+            height: 3000px;
+        }
+
+        .box {
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        #box3 {
+            /* CSS position: Relative position property is used to move an element to from its original position. A blank space remains in the area
+            position: relative;
+            top: 34px;
+            left: 34px;
+
+             Absolute position is used to move an element from the its parent position 
+            position: absolute;
+            top: 344px;
+            left: 34px; */
+
+            /* position fixed is used to fix an element in its assigned space
+            position: fixed;
+            right: 16px; */
+
+            /* Position sticky: It is a hybrid of relative and fixed position. An HTML element with position:sticky; will just sit there until a given position offset is met. */
+            position: sticky;
+            top: 3px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h3>This is a tutorial for CSS Position</h3>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    
+</body>
+</html>

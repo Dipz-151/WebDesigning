@@ -1,0 +1,179 @@
+/* CSS Reset */
+body {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/bg.jpg');
+    /* The background-image property in the CSS file should look like this: background-image: url('../img/cat-pic-1.jpg'). */
+    background-repeat: no-repeat;
+    height: 1280px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.left {
+    position: absolute;
+    /* border: 2px solid red; */
+    display: inline-block;
+    left: 60px;
+    top: 22px
+}
+
+.left img {
+    width: 92px;
+    height: 64px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 24px;
+    font-size: 23px;
+
+}
+
+.center {
+    /* border: 2px solid rgb(72, 144, 42); */
+    width: 33%;
+    display: block;
+    margin: 27px auto;
+}
+
+.right {
+    position: absolute;
+    display: inline-block;
+    /* border: 2px solid rgb(50, 13, 129); */
+    right: 41px;
+    top: 28px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.btn {
+    margin: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 12px;
+    background: rgb(110, 203, 175);
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    border: ghostwhite;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(74, 174, 237);
+}
+
+.container {
+    border: 2px solid lightskyblue;
+    margin: 51px 42px;
+    /* padding: 26px; */
+    width: 32%;
+    border-radius: 23px;
+}
+
+.form-group input {
+    font-family: cursive;
+    text-align: left;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 19px;
+    display: block;
+    margin: 12px auto;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+/* .container button {
+    display: block;
+    margin: 18px 65px;
+    width: 18%;
+    padding: 0px 12px;
+    background: rgb(110, 203, 175);
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    border: ghostwhite;
+    border-radius: 18px;
+    cursor: pointer;
+} */
+
+.button {
+    display: inline-block;
+    margin: 5px;
+    width: 28%;
+    padding: 0px 12px;
+    background: rgb(110, 203, 175);
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    border: ghostwhite;
+    border-radius: 13px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 48px;
+    text-align: center;
+
+    /* background: #b06f97;
+    color: #333; 
+    font-size: 1.5em;
+    font-family: 'Georgia',serif;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 8px 16px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; */
+
+    /* width: 2px;
+    margin: 0 auto;
+    display: inline; */
+}
+
+/* .action_btn {
+    width: 100px;
+    margin: 0 auto;
+    display: inline;
+    background: rgb(110, 203, 175);
+    font-family: 'Baloo Bhai', cursive;
+    border: ghostwhite;
+    border-radius: 18px;
+    cursor: pointer;
+} */
+
+.container button:hover {
+    background-color: rgb(74, 174, 237);
+}
+
+.radio {
+    display: inline-block;
+    margin: 0px 16px;
+    /* vertical-align: middle; */
+}
+
+/* .radLabel {
+    display: inline-block; 
+    margin: 0px 62px;
+} */
