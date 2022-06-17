@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .box {
+            background-color: rgba(64, 66, 196, 0.91);
+            font-size: 44px;
+            text-align: center;
+            display: none;
+        }
+
+        @media (max-width:450px) {
+            #box1 {
+                display: block;
+                background-color: aqua;
+            }
+        }
+        
+        @media (min-width: 460px) and (max-width: 850px) {
+            #box2 {
+                display: block;
+                background-color: lavender;
+            }
+        }
+
+        @media (min-width: 860px) and (max-width: 1000px) {
+            #box3 {
+                display: block;
+                background-color: red;
+            }
+        }
+
+        @media (min-width: 1010px) and (max-width: 3000px) {
+            #box4 {
+                display: block;
+                background-color: green;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h3>This is a tutorial on Media Query</h3>
+    <div class="box" id="box1">This is a text for mobile</div>
+    <div class="box" id="box2">This is a text for table</div>
+    <div class="box" id="box3">This is a text for laptop</div>
+    <div class="box" id="box4">This is a text for widescreen computer</div>
+</body>
+</html>

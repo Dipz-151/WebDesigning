@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS</title>
+    <style>
+        h2 {
+            background-color: royalblue;
+            color: black;
+            text-align: center;
+        }
+
+        /* This CSS targets the paragraph which are inside div or whose parent is div */
+        div p {
+            background-color: burlywood;
+            color: white;
+        }
+
+        /* This CSS targets the text which is inside the li */
+        div ul li {
+            background-color: coral;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        /* This CSS will be applied to the element whose parent is div and next sibling is p */
+        div + p {
+            background-color: cornflowerblue;
+            font-weight: bold;
+            font-style: italic;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>This is a tutorial on selectors</h2>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>This is the first item</li>
+            </ul>
+            <p>This is the 1st paragraph</p>
+        </div>
+        <p>This is 2nd paragraph</p>
+    </div>
+    <p>This is an outer paragraph</p>
+</body>
+</html>
