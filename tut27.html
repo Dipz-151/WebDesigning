@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow effect</title>
+    <style>
+        .container {
+            display: flex;
+            /* flex property will make the content inside the container appears in a horizontal line */
+        }
+
+        .box {
+            border: 2px solid red;
+            padding: 17px 18px;
+            margin: 28px 22px;
+            background-color: #d5ac78;
+            box-shadow: 9px 9px green;
+            /* Negative value in the box-shadow will make the shadow effect appear on top */
+        }
+
+        .box h2 {
+            text-shadow: 3px 3.5px rgb(113 113 226);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box-1">
+            <h2>This is a course on HTML and CSS</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus at explicabo dolores magni eos cumque
+                debitis? Repellat perspiciatis eveniet odio est, possimus nam minus quibusdam neque praesentium
+                doloremque mollitia dolorem explicabo vero nesciunt rem?
+            </p>
+        </div>
+        <div class="box" id="box-2">
+            <h2>This is a course on Java</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus at explicabo dolores magni eos cumque
+                debitis? Repellat perspiciatis eveniet odio est, possimus nam minus quibusdam neque praesentium
+                doloremque mollitia dolorem explicabo vero nesciunt rem?
+            </p>
+        </div>
+        <div class="box" id="box-3">
+            <h2>This is a course on Python</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus at explicabo dolores magni eos cumque
+                debitis? Repellat perspiciatis eveniet odio est, possimus nam minus quibusdam neque praesentium
+                doloremque mollitia dolorem explicabo vero nesciunt rem?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
